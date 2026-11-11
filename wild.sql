@@ -1,0 +1,23 @@
+
+CREATE DATABASE wild_db_quest;
+USE wild_db_quest;
+
+CREATE TABLE wizard (
+  id INT NOT NULL AUTO_INCREMENT,
+  firstname VARCHAR(100) NOT NULL,
+  lastname VARCHAR(100) NOT NULL,
+  birthday DATE DEFAULT NULL,
+  birth_place VARCHAR(255) DEFAULT NULL,
+  biography TEXT DEFAULT NULL,
+  PRIMARY KEY (id)
+);
+/*ALTER TABLE wizard ADD COLUMN is_muggle BOOLEAN NOT NULL;*/
+
+CREATE TABLE IF NOT EXISTS school (
+
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    capacity INT DEFAULT NULL,
+    country VARCHAR(250) NOT NULL,
+    PRIMARY KEY (id)
+);
