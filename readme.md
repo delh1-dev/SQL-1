@@ -7,3 +7,8 @@
 
 - ajouter des données dans la table wizard.
 - requêtes SELECT avec WHERE, ORDER BY et LIMIT sur la table wizard
+
+# Exercice SQL 03
+
+- manipuler des données dans cet exercice
+- UPDATE et DELETE pour modifier et supprimer des données dans la base.

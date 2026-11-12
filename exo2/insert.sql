@@ -49,8 +49,9 @@ AND firstname LIKE 'H%';*/
 WHERE lastname = 'Potter'
 ORDER BY firstname;*/
 
-SELECT firstname, lastname, birthday FROM wizard
+/*SELECT firstname, lastname, birthday FROM wizard
 WHERE is_muggle = 0
 ORDER BY birthday
-LIMIT 1;
+LIMIT 1;*/
+
 
