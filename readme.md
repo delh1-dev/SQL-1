@@ -12,3 +12,8 @@
 
 - manipuler des données dans cet exercice
 - UPDATE et DELETE pour modifier et supprimer des données dans la base.
+
+# Difficulté générale
+
+- installation MySQL
+- mémoriser les commande SQL et leur syntaxe
